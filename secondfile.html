@@ -1,0 +1,89 @@
+<!doctype html>
+<html> 
+<head>
+<link rel="stylesheet" href="secondfile.css">
+</head>
+<body>
+<div class="container">
+<h1>Registration Form</h1>
+<form action="#">
+<div class="fields">
+<div class="input field">                 
+ <lable> Full name </lable>
+<input type="text" class="contol" id= "Full" placeholder="Enter your name" required>
+</div>
+ <div class="input field">
+<lable>Date of Birth</lable>
+<input type="date" class="contol" id="Birth" placeholder="Enter your Birth" required>
+</div>
+<div class="input field">
+ <lable>Email</lable>
+<input type="text" class="contol" id="Email" placeholder="Enter email id" required >
+</div>
+<div class="input field">
+<lable> Mobile Number</lable>
+<input type="number" class="contol" id= "Mobile" placeholder="(00__0000000000)"required>
+</div>
+<div class="input field">
+<lable> Addar Number </lable>
+<input type="text" class="contol" id="Adar" placeholder="Enter your addar " required>
+</div>
+<div class="input field">
+<lable>Year of pass</lable>
+<input type="date" calss="contol" id="Year" placeholder="Enter pass year" required>
+</div>
+<div class="input field">
+<lable>College name </lable>
+<input type="text" class="contol" id="College" placeholder="Enter college name"required>
+</div>
+<div class="input field">
+<lable> Address </lable>
+<input type="text" class="contol" id="Address" placeholder="Enter Address " required>
+</div>
+<div class="input field">
+<lable>Persantage</lable>
+<input type="number" class="contol" id="Persantage" placeholder="Enter pass year %" required>
+</div>
+<div class="input field">
+<lable>City </lable>
+<input type="text" class="contol" id="City" placeholder="Enter city"required>
+</div>
+<div class="input field">
+<lable> State </lable>
+<input type="text" class="contol" id="State" placeholder="Enter State " required>
+</div>
+<div class="input field">
+<lable>Zip-Code</lable>
+<input type="number" class="contol" id="Zip" placeholder="Enter zip-code" required>
+</div>
+</div><br><br><lable><h3>Gender</h3></lable>
+ <input type="radio" name="Gender" value="Male" class="shabi">Male
+<input type="radio" name="Gender" value="Female" class="shabi">Female
+                        
+<Button type="submit" onclick = "Computer()" class="submit" id="submit">Submit
+    
+</Button>
+<table class="tables" id="tablles">
+<thead>
+<tr>
+<th>Sr.</th>
+<th>Full_name</th>
+<th>Date_of_Birth</th>
+<th>Email</th>
+<th>Mobile_Number</th>
+<th>Addar_Number</th>
+<th>Year_of_Pass</th>
+<th>College_name</th>
+<th>Address</th>
+<th>Persantage</th>
+<th>City</th>
+<th>State</th>
+</tr>
+</thead>
+<tbody id="gbody">
+ </tbody>
+</table>                     
+</form>
+<script src="secondfile.js"></script>
+</body>
+</html>

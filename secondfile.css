@@ -1,0 +1,54 @@
+body{
+    background-image:url(wall.jpg);
+}
+.container{
+    border-style:solid;
+    Border-width:5px;
+    outline-style:solid;
+    outline-width:20px;
+    outline-color:black;
+    width: 1200px;
+    height: 500px;
+    Border-Color: red;
+    background-color:beige;
+    margin:50px;  
+}
+h1{
+    text-decoration-line:underline;
+    text-decoration-color:brown;
+    text-align:center;
+    color:blue;   
+}
+ form .fields{
+    display:flex;
+    color:black;
+    font-size:30px;
+    line-height:70px;
+    font-weight:bold; 
+    margin-left:20px;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;    
+}
+.submit{
+    display:flex;
+    margin:40px;
+    line-height:30px;
+    background-color:red;
+    font-size:30px;
+    outline-style:solid;
+    outline-width:5px;
+    outline-color:black;
+   
+}
+lable{
+    font-size:15px;
+}
+Table{
+    Border-style:solid;
+    Border-width:5px;
+    Border-color:Black;
+    align-items:center;
+    outline-style:groove;
+    outline-color:blue;
+}
